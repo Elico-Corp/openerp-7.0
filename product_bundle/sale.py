@@ -108,9 +108,9 @@ class sale_order(osv.osv):
                     if is_bundle:
                         line_vals.update({
                             'product_id': fake_line.item_id.id,
-                            'product_qty': fake_line.qty_uom,
+                            'product_qty': fake_line.qty_uom * line.product_uom_qty,
                             'product_uom': fake_line.uom_id.id,
-                            'product_uos_qty': fake_line.qty_uom,
+                            'product_uos_qty': fake_line.qty_uom * ((line.product_uos and line.product_uos_qty) or line.product_uom_qty),
                             'product_uos': fake_line.uom_id.id,
                             'procure_method': fake_line.item_id.procure_method,
                             'price_unit': fake_line.item_id.standard_price or 0.0,
@@ -146,7 +146,8 @@ class sale_order(osv.osv):
                     del line_vals['location_dest_id']
                     del line_vals['date']
                     del line_vals['date_expected']
-                    del line_vals['picking_id']
+                    if 'picking_id' in line_vals:
+                        del line_vals['picking_id']
                     del line_vals['partner_id']
                     del line_vals['sale_line_id']
                     del line_vals['tracking_id']

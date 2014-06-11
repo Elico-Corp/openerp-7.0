@@ -45,6 +45,7 @@
     'depends': ['sale_stock'], 
     'init_xml': [],
     'update_xml': [
+           'security/ir.model.access.csv',
            'product_view.xml',
 
     ],
