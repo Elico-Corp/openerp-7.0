@@ -45,15 +45,4 @@ class StockMove(osv.osv):
 StockMove()
 
 
-class stock_picking(osv.osv):
-    _inherit = 'stock.picking'
-    _columns = {
-        'min_date': fields.datetime('Min date'),
-    }
-
-    _defaults = {
-        'min_date': lambda *a: time.strftime('%Y-%m-%d %H:%M:%S'),
-    }
-stock_picking()
-
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
