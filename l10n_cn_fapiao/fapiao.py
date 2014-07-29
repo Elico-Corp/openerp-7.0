@@ -61,10 +61,3 @@ class fapiao_tag(orm.Model):
         'name': fields.char("Name"),
     }
 
-
-class account_invoice(orm.Model):
-    _inherit = 'account.invoice'
-
-    _columns = {
-        'fapiao_ids': fields.one2many('fapiao', 'invoice_ids', 'Fapiao'),
-    }
