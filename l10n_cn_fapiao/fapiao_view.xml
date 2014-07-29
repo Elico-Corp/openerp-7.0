@@ -59,24 +59,6 @@
                </search>
             </field>
         </record>
-       <record id="invoice_form" model="ir.ui.view">
-            <field name="name">account.invoice.form</field>
-            <field name="model">account.invoice</field>
-            <field name="inherit_id" ref="account.invoice_form" />
-            <field name="arch" type="xml">
-                <xpath expr="//notebook/page[@string='Payments']" position="after">
-                    <page string="Fapiao Info">
-                        <field name="fapiao_ids">
-                            <tree string="Fapiao" editable="bottom">
-                                <field name="fapiao_number" />
-                                <field name="fapiao_date" />
-                                <field name="amount_with_taxes" />
-                            </tree>
-                        </field>
-                    </page>
-                </xpath>
-            </field>
-        </record>
 
        <record id="action_fapiao_tree" model="ir.actions.act_window">
             <field name="name">Customer Fapiao</field>

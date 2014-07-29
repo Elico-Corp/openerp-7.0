@@ -46,6 +46,7 @@ The procedure to follow for the fapiao management is as below:
     'depends': ['account'],
     'data': [
         'fapiao_view.xml',
+        'security/ir.model.access.csv',
     ],
     'test': [
     ],
