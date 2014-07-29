@@ -67,4 +67,5 @@ class stock_picking_express(base_state, osv.Model):
             _get_url_express, method=True, type='char',
             string='Link', readonly=1),
         'date': fields.datetime('Date Deliver'),
+        'note': fields.text('note'),
     }
