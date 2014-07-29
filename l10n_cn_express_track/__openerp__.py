@@ -43,6 +43,7 @@
     'demo': [],
     'data': [
         'express_view.xml',
+        'security/ir.model.access.csv'
         ],
     'test': [],
     'installable': True,
