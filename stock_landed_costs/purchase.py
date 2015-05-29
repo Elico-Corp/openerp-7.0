@@ -74,11 +74,6 @@ class purchase_order(orm.Model):
                 'template_id': get_id(landed_cost.template_id),
                 'invoice_total_per_product': landed_cost.invoice_total_per_product
             }
-            # default_currency = self.pool.get('res.users').browse(cr, uid, uid, context=context).company_id
-            # import pdb
-            # pdb.set_trace()
-            # if lc_value['currency_id'] == default_currency.id:
-            #     lc_value['amount'] = lc_value['amount_currency']
             res.append((0, 0, lc_value))
         # if the amount_currency is the same as company's default currency, we don't do the calculation.
         return res
