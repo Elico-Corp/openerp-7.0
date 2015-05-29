@@ -20,3 +20,4 @@
 #
 ##############################################################################
 import landed_cost_position_invoice
+import shipment_wizard

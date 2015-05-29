@@ -4,6 +4,7 @@
 #    OpenERP, Open Source Management Solution
 #    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
 #    Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
+#    Alex Duan <alex.duan@elico-corp.com>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as

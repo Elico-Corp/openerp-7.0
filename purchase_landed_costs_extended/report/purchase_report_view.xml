@@ -112,7 +112,7 @@
 
 
         <record id="action_purchase_order_landed_cost_landed_cost_report_all" model="ir.actions.act_window">
-            <field name="name">Landed Cost Extended</field>
+            <field name="name">Landing Costs Summary</field>
             <field name="res_model">purchase.landed.cost.report</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,graph</field>

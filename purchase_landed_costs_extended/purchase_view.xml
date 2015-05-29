@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
+        <record id="inherit_purchase_order_form" model="ir.ui.view">
+            <field name="name">inherit.purchase.order.form</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form" />
+            <field name="arch" type="xml">
+                <field name="origin" position="replace">
+                    <field name="origin" />
+                </field>
+                <xpath expr="//field[@name='order_line']/tree" position="attributes">
+                    <attribute name="editable"/>
+                </xpath>
+            </field>
+        </record>
         <record id="purchase_order_form" model="ir.ui.view">
             <field name="name">purchase.order.form</field>
             <field name="model">purchase.order</field>
@@ -10,9 +23,6 @@
                     <attribute name="attrs">{'readonly': [('pricelist_id', '=', False)]}</attribute>
                     <attribute name="context">{'pricelist_id': pricelist_id}</attribute>
                 </field>
-                <xpath expr="//field[@name='order_line']/tree" position="attributes">
-                    <attribute name="editable"></attribute>
-                </xpath>
                 <field name="landed_cost_line_ids" position="attributes">
                     <attribute name="attrs">{'readonly': [('pricelist_id', '=', False)]}</attribute>
                     <attribute name="context">{'pricelist_id': pricelist_id}</attribute>
@@ -35,8 +45,15 @@
                 </xpath>
    
                 <xpath expr="//field[@name='landed_cost_line_ids']/tree/field[@name='partner_id']" position="attributes">
-                    <attribute name="on_change">onchange_partner_id(partner_id)</attribute>         
                 </xpath>
+                <!-- add new field: Landed Costs Base Volume -->
+                <field name="landed_cost_base_value" position="after">
+                    <field name="landed_cost_base_volume" />
+                </field>
+                <!-- add new field: volume_total -->
+                <field name="quantity_total" position="after">
+                    <field name="volume_total"/>
+                </field>
             </field>
         </record>
 
