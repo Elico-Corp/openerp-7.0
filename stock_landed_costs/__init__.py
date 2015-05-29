@@ -2,8 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
-#    Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
+#    Copyright (C) 2010-2014 Elico Corp (<http://www.elico-corp.com>)
 #    Alex Duan <alex.duan@elico-corp.com>
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -20,25 +19,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{'name': 'Purchase Landed Costs Extended',
- 'version': '0.1',
- 'category': 'Warehouse Management',
- 'depends': ['purchase', 'stock', 'account', 'purchase_landed_costs'],
- 'author': 'Elico Corp',
- 'license': 'AGPL-3',
- 'website': 'https://www.elico-corp.com',
- 'description': """
-
-""",
- 'images': [],
- 'demo': [],
- 'data': ['purchase_view.xml',
-          'report/purchase_report_view.xml',
-          'wizard/landed_cost_position_invoice_view.xml',
-          'wizard/shipment_wizard_view.xml',
-          'security/ir.model.access.csv',
-          'stock_view.xml',
-          'shipment_view.xml',
-          'purchase_landed_costs_extended_data.xml'],
- 'installable': True,
- 'application': False}
+from . import product
+from . import stock
+from . import wizard
+from . import product_price_history
+from . import account_anglo_saxon_pos
+from . import purchase
