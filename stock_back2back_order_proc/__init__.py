@@ -24,4 +24,3 @@
 from sale import *
 from stock import *
 from procurement import *
-import wizard
