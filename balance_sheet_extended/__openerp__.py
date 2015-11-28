@@ -20,7 +20,7 @@
 #
 ##############################################################################
 {'name': 'Balance Report Extended',
- 'version': '0.1',
+ 'version': '7.0.0.1',
  'category': '',
  'depends': ['account'],
  'author': 'Elico Corp',
