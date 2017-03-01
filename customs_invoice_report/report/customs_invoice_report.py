@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# © 2016 Elico corp(www.elico-corp.com)
-# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 import time
 from openerp.report import report_sxw
 from lxml import etree
@@ -10,9 +10,6 @@ from openerp.tools.translate import _
 class customs_invoice(report_sxw.rml_parse):
     def __init__(self, cr, uid, name, context):
         super(customs_invoice, self).__init__(cr, uid, name, context=context)
-        
-        print '>>>>>' ,context
-         
         ratio = 1
         invoice_ids = context.get('invoice_ids',False)
         customs_total = context.get('customs_total',False)
@@ -60,4 +57,4 @@ report_sxw.report_sxw(
     'extra_addons/customs_invoice_report/report/customs_invoice_report.mako',
     parser=customs_invoice,
 )
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+

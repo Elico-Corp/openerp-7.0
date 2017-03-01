@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# © 2016 Elico corp(www.elico-corp.com)
-# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 from openerp.osv import fields, osv
 
@@ -31,5 +31,5 @@ class  wizard_customs_invoice_report(osv.osv_memory):
     
         
 
- # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
   
