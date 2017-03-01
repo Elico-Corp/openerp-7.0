@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# © 2016 Elico corp(www.elico-corp.com)
-# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 from openerp.osv import fields, osv
 from openerp.tools.translate import _
@@ -21,5 +21,5 @@ class account_invoice(osv.osv):
         ('check_alternative_discount', 'CHECK (alternative_discount<100 AND alternative_discount>-1)', 'Alternative Discount must in 0-100'),
     ]
 
- # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
   
