@@ -1,24 +1,6 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
-#    Alex Duan <alex.duan@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 from openerp.osv import orm, fields
 from openerp import netsvc
 import logging
@@ -85,10 +67,6 @@ class automatic_workflow_job(orm.Model):
         wf_service = netsvc.LocalService('workflow')
         todo = {}
         res = []
-        # get delivery orders that need to be invoiced
-        # condition is: invoice_state is 2binvoiced
-        # and the sale order's workflow is inovice created after delivery
-        # and the delivery order is delivered (state is done.)
         picking_ids = picking_obj.search(
             cr, uid,
             [('invoice_state', '=', '2binvoiced'), ('state', '=', 'done'), ('sale_id.partner_id.active', '=', True)],
@@ -129,8 +107,6 @@ class automatic_workflow_job(orm.Model):
         self._validate_sale_orders(cr, uid, context=context)
         self._create_invoice_on_shipping(cr, uid, context=context)
         self._validate_invoices(cr, uid, context=context)
-        # we don't need the reconciliation part for the moment.
-        # self._reconcile_invoices(cr, uid, context=context)
         self._validate_pickings(cr, uid, context=context)
         return True
 
