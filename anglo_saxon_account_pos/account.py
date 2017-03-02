@@ -1,24 +1,6 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
-#    Alex Duan <alex.duan@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 from openerp.osv import orm, fields, osv
 from openerp.tools.translate import _
 from openerp import netsvc
@@ -62,7 +44,6 @@ class pos_session(orm.Model):
                         'account_id': account_id
                     }, context=context)
                 # Here we don't validate the POS related bank statement.
-                # getattr(st, 'button_confirm_%s' % st.journal_id.type)(context=context)
         self._confirm_orders(cr, uid, ids, context=context)
         self.write(cr, uid, ids, {'state': 'closed'}, context=context)
 
@@ -72,18 +53,13 @@ class pos_session(orm.Model):
         for session in self.browse(cr, uid, ids, context=context):
             order_ids = [order.id for order in session.order_ids if order.state == 'paid']
 
-            # move_id = self.pool.get('account.move').create(cr, uid, {'ref' : session.name, 'journal_id' : session.config_id.journal_id.id, }, context=context)
-
-            # self.pool.get('pos.order')._create_account_move_line(cr, uid, order_ids, session, move_id, context=context)
+            
             '''ISSUE 2666 add done state to avoid warning message by chen rong'''
             for order in session.order_ids:
                 if order.state not in ('paid', 'invoiced','done'):
                     raise osv.except_osv(
                         _('Error!'),
                         _("You cannot confirm all orders of this session, because they have not the 'paid' status"))
-                # else:
-                #     wf_service.trg_validate(uid, 'pos.order', order.id, 'done', cr)
-
         return True
 
 class account_bank_statement(orm.Model):
@@ -128,7 +104,6 @@ class pos_order(orm.Model):
 
         period = account_period_obj.find(cr, uid, context=context)[0]
 
-        #session_ids = set(order.session_id for order in self.browse(cr, uid, ids, context=context))
 
         if session and not all(session.id == order.session_id.id for order in self.browse(cr, uid, ids, context=context)):
             raise osv.except_osv(_('Error!'), _('Selected orders do not have the same session!'))
@@ -176,8 +151,6 @@ class pos_order(orm.Model):
 
                 sale_journal_id = order.sale_journal.id
 
-                # 'quantity': line.qty,
-                # 'product_id': line.product_id.id,
                 values.update({
                     'date': order.date_order[:10],
                     'ref': order.name,
@@ -201,10 +174,7 @@ class pos_order(orm.Model):
                 if not grouped_data.get(key, False):
                     grouped_data.setdefault(key, [])
 
-                # if not have_to_group_by or (not grouped_data[key]):
-                #     grouped_data[key].append(values)
-                # else:
-                #     pass
+                
 
                 if have_to_group_by:
                     if not grouped_data[key]:
@@ -373,13 +343,7 @@ class pos_order(orm.Model):
 
         return True
 
-    # def button_post(self, cr, uid, ids, context=None):
-    #     wf_service = netsvc.LocalService("workflow")
-    #     if not ids:
-    #         return
-    #     for order in self.browse(cr, uid, ids, context=context):
-    #         wf_service.trg_validate(uid, 'pos.order', order.id, 'done', cr)
-
+    
 
 class account_bank_statement(orm.Model):
     _inherit = 'account.bank.statement'
