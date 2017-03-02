@@ -33,8 +33,7 @@
             </search>
         </field>
     </record>
-
-    <!-- have the action window for the menu: default grouping by licensor -->
+    
     <record id="action_product_licensor_report_all" model="ir.actions.act_window">
         <field name="name">Product Licensor Analysis</field>
         <field name="res_model">product.licensor.report</field>
