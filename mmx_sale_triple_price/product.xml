@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="1"> 
-		<!-- Create 3 new price types: list list2  list3     
-        <record id="product_list_price" model="product.price.type">
-            <field name="name">Sale Price</field>
-            <field eval="True" name="active"/>
-            <field name="field" eval="'list_price'"/>
-        </record>
-        <record id="product_list2_price" model="product.price.type">
-            <field name="name">Sale Price 2</field>
-            <field eval="True" name="active"/>
-            <field name="field" eval="'list2_price'"/>
-        </record>
-        <record id="product_list3_price" model="product.price.type">
-            <field name="name">Sale Price 3</field>
-            <field eval="True" name="active"/>
-            <field name="field" eval="'list3_price'"/>
-        </record>
-         -->
-	</data>
+	
 	
 	<data> 
 		<!-- Edit product views: Form,     -->  
