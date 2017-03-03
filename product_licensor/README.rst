@@ -14,17 +14,6 @@ This module adds licensors for the products,
 
 - add a new menu: purchase/licensors to view licensors
 
-usage
-=====
-- User needs to belong to the group:
-Product licensor manager to setup the licensors.
-
-Installation
-============
-
-To install this module, you need to:
-
-#. Do this ...
 
 Configuration
 =============
@@ -35,17 +24,11 @@ Bug Tracker
 ===========
 
 Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
-check there if your issue has already been reported. If you spotted it first,
-help us smash it by providing detailed and welcomed feedback.
-
-* Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
-
-.. only if the OCA logo is used, else remove
 
 Contributors
 ------------
 
-Eric Caudal eric.caudal@elico-corp.com
+Eric Caudal <eric.caudal@elico-corp.com>
 
 Maintainer
 ----------

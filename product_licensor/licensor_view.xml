@@ -6,7 +6,6 @@
             <field name="name">view.licensors.list</field>
             <field name="model">res.partner</field>
             <!-- we have a low sequence to not been chosen by other action. -->
-            <!-- <field name="sequence">200</field> -->
             <field name="arch" type="xml" >
                 <tree string="Licensors">
                     <field name="id" string="Licensor ID"/>
@@ -28,7 +27,6 @@
         <record id="view_licensor_form" model="ir.ui.view">
             <field name="name">res.licensor.inherit</field>
             <field name="model">res.partner</field>
-            <!-- <field name="priority">0</field> -->
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='ref']/.." position="after">
