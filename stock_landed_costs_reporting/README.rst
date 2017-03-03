@@ -2,17 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==================
-product licensor
-==================
-
-This module adds licensors for the products,
-
-- add a reporting;
-
-- add a new group: Product licensor manager to manage licensors.
-
-- add a new menu: purchase/licensors to view licensors
+======================
+Landed costs reporting
+======================
 
 
 Configuration
