@@ -8,11 +8,7 @@
             <field name="arch" type="xml" >
                 <xpath expr="//page[@string='Sales &amp; Purchases']//field[@name='supplier']" position="after">
                     <field name="intercompany" groups="multi_company_orders.intercompany_group"/>
-                </xpath><!-- 
-                <field name="supplier" position="after">
-                    <field name="intercompany" /> -->
-<!--                     <field name="intercompany" groups="multi_company_orders.intercompany_group" />
- -->           <!--  </field> -->
+                </xpath>
             </field>
         </record>
     </data>
