@@ -127,17 +127,6 @@
         </record>
     <menuitem action="action_pos_view_bank_statement_tree" id="journal_pos_cash_move_lines" parent="account.menu_finance_bank_and_cash"/>
 
-    <!-- inherit pos order form view -->
-<!--     <record model="ir.ui.view" id="view_inherit_pos_pos_form">
-            <field name="name">pos.order.formview</field>
-            <field name="model">pos.order</field>
-            <field name="inherit_id" ref="point_of_sale.view_pos_pos_form" />
-            <field name="arch" type="xml">
-                <button name="action_invoice" position="after">
-                    <button name="button_post" string="Post" type="object" states="paid" class="oe_highlight"/>
-                </button>
-            </field>
-        </record> -->
     <!-- add fapiao issued field-->
         <record id="view_move_fapiao_issue_form" model="ir.ui.view">
             <field name="name">account.move.fapiao.issue</field>
