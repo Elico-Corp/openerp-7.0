@@ -2,17 +2,13 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==================
-product licensor
-==================
+=====================
+Custom Invoice Report
+=====================
 
-This module adds licensors for the products,
-
-- add a reporting;
-
-- add a new group: Product licensor manager to manage licensors.
-
-- add a new menu: purchase/licensors to view licensors
+customs_invoice_report
+         
+          invoice tree view, 'more' button, 'Customs Invoice Report',
 
 
 Configuration
