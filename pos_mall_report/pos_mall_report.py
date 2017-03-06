@@ -1,24 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
-#    Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 
 from openerp.osv import fields, osv, orm
 import base64
@@ -322,7 +305,6 @@ class pos_mall_report(orm.Model):
 
     # prepare one mall line per one pos order
     def _prepare_mall_line(self, cr, uid, pos, mall_id, context=None):
-        # res = self.browse(cr, uid, mall_id)
         res = {}
         line_obj = self.pool.get('pos.mall.report.line')
         payment_methods = [pm[0] for pm in line_obj._get_payement_method(cr, uid, context=context)]
@@ -598,4 +580,3 @@ class pos_mall_report_template_line(orm.Model):
         'model_id': _default_model_id
     }
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
