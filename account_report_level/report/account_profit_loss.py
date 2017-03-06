@@ -1,22 +1,7 @@
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2009 Tiny SPRL (<http://tiny.be>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# -*- coding:utf-8 -*-
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 
 import time
 import pooler
@@ -99,8 +84,7 @@ class report_pl_account_horizontal(report_sxw.rml_parse, common_report_header):
         ctx['fiscalyear'] = data['form'].get('fiscalyear_id', False)
 
         if data['form']['filter'] == 'filter_period':
-#EC            ctx['periods'] = data['form'].get('periods', False)
-            ctx['period_from'] = data['form'].get('period_from', False)
+           ctx['period_from'] = data['form'].get('period_from', False)
             ctx['period_to'] = data['form'].get('period_to', False)#EC
         elif data['form']['filter'] == 'filter_date':
             ctx['date_from'] = data['form'].get('date_from', False)
@@ -117,12 +101,8 @@ class report_pl_account_horizontal(report_sxw.rml_parse, common_report_header):
                 if (account.user_type.report_type) and (account.user_type.report_type == typ):
                     currency = account.currency_id and account.currency_id or account.company_id.currency_id
                     if typ == 'expense' and account.type <> 'view' and (account.debit <> account.credit):
-                        #Felix
-                        #self.result_sum_dr += abs(account.debit - account.credit)
                         self.result_sum_dr += (account.debit - account.credit)
                     if typ == 'income' and account.type <> 'view' and (account.debit <> account.credit):
-                        #Felix
-                        #self.result_sum_cr += abs(account.debit - account.credit)
                         self.result_sum_cr += (account.debit - account.credit)
                     
                     if account.level >= data['form'].get('level', 10):
@@ -136,8 +116,6 @@ class report_pl_account_horizontal(report_sxw.rml_parse, common_report_header):
                             accounts_temp.append(account)
                     else:
                         accounts_temp.append(account)
-            #Felix
-            #if self.result_sum_dr > self.result_sum_cr:
             if abs(self.result_sum_dr) > abs(self.result_sum_cr):
                 self.res_pl['type'] = _('Net Loss')
                 self.res_pl['balance'] = abs(self.result_sum_dr) - abs(self.result_sum_cr)
@@ -200,4 +178,3 @@ report_sxw.report_sxw('report.pl.account.horizontal.level', 'account.account',
 report_sxw.report_sxw('report.pl.account.level', 'account.account',
     'addons/account_report_level/report/account_profit_loss.rml',parser=report_pl_account_horizontal, header='internal')
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -1,30 +1,12 @@
 # -*- encoding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2009 Tiny SPRL (<http://tiny.be>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 
 import time
 
 import pooler
 from report import report_sxw
-#Felix
-#from account.report import account_profit_loss
 from . import account_profit_loss
 from account.report.common_report_header import common_report_header
 from tools.translate import _
@@ -74,13 +56,11 @@ class report_balancesheet_horizontal(report_sxw.rml_parse, common_report_header)
 
     def sum_dr(self):
         if self.res_bl['type'] == _('Net Profit'):
-#EC            self.result_sum_dr += self.res_bl['balance']*-1
             self.result_sum_dr += self.res_bl['balance']*-1
         return self.result_sum_dr
 
     def sum_cr(self):
         if self.res_bl['type'] == _('Net Loss'):
-#EC            self.result_sum_cr += self.res_bl['balance']
             self.result_sum_cr += self.res_bl['balance']#*-1
         return self.result_sum_cr
 
@@ -110,7 +90,6 @@ class report_balancesheet_horizontal(report_sxw.rml_parse, common_report_header)
         ctx['fiscalyear'] = data['form'].get('fiscalyear_id', False)
 
         if data['form']['filter'] == 'filter_period':
-#EC            ctx['periods'] = data['form'].get('periods', False)
             ctx['period_from'] = data['form'].get('period_from', False)
             ctx['period_to'] = data['form'].get('period_to', False)#EC
         elif data['form']['filter'] == 'filter_date':
@@ -148,7 +127,6 @@ class report_balancesheet_horizontal(report_sxw.rml_parse, common_report_header)
                         'code': account.code,
                         'name': account.name,
                         'level': account.level,
-#EC                        'balance':account.balance,
 						'balance': (account.balance and typ == 'liability' and -1 or 1 ) * account.balance,#EC
                     }
                     currency = account.currency_id and account.currency_id or account.company_id.currency_id
@@ -231,4 +209,3 @@ report_sxw.report_sxw('report.account.balancesheet.level', 'account.account',
     'addons/account/report/account_balance_sheet.rml',parser=report_balancesheet_horizontal,
     header='internal')
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

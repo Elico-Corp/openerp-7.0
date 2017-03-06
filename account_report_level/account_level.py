@@ -1,25 +1,7 @@
 # -*- encoding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution    
-#    Copyright (c) 2010-2012 Elico Corp. All Rights Reserved.
-#    Author:            Andy Lu <andy.lu@elico-corp.com>
-#    $Id$
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 from osv import fields, osv
 
 class account_account(osv.osv):
@@ -38,7 +20,6 @@ class account_account(osv.osv):
                         tuple
         """
         #get all the necessary accounts
-        #children_and_consolidated = self._get_children_and_consol(cr, uid, ids, context=context)
         #compute for each account the balance/debit/credit from the move lines
         accounts = {}
         res = {}
@@ -65,9 +46,6 @@ class account_account(osv.osv):
                 res[id] = cr.fetchone()[0] or ''
         return res 
 
-#    _columns = {        
-#        'amount_currency': fields.function(_get_amount_currency, type='char', method=True, string='Amount Currency'),
-#    }
 account_account()    
 
 class account_pl_report(osv.osv_memory):
@@ -159,4 +137,4 @@ class account_balance_report(osv.osv_memory):
         return {'type': 'ir.actions.report.xml', 'report_name': 'account.account.balance.level', 'datas': data}
 
 account_balance_report()
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+

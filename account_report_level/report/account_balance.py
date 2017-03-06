@@ -1,23 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 
 import time
 
@@ -48,7 +32,7 @@ class account_balance(report_sxw.rml_parse, common_report_header):
             'get_start_date':self._get_start_date,
             'get_end_date':self._get_end_date,
             'get_target_move': self._get_target_move,
-            #'get_amount_currency': self._get_amount_currency,
+            
         })
         self.context = context
 
@@ -80,7 +64,6 @@ class account_balance(report_sxw.rml_parse, common_report_header):
                     'credit': account_rec['credit'],
                     'balance': account_rec['balance'],
                     'parent_id': account_rec['parent_id'],
-                    #'amount_currency': account_rec['amount_currency'],#(self.cr, self.uid, [acc_id.id], context=self.context),
                     'bal_type': '',
                 }
                 self.sum_debit += account_rec['debit']
@@ -132,4 +115,3 @@ class account_balance(report_sxw.rml_parse, common_report_header):
 
 report_sxw.report_sxw('report.account.account.balance.level', 'account.account', 'addons/account_report_level/report/account_balance.rml', parser=account_balance, header="internal")
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
