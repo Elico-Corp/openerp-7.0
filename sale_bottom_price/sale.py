@@ -1,24 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2013 Elico Corp. All Rights Reserved.
-#    Author: Qiao Lei <qiao.lei@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 from openerp.osv import fields, osv, orm
 import openerp.addons.decimal_precision as dp
 from openerp.tools import (DEFAULT_SERVER_DATE_FORMAT,
@@ -30,7 +13,6 @@ _logger = logging.getLogger(__name__)
 
 
 def float_eq(f1, f2, precision):
-    # if float_round(f1, precision) - float_round(f2, precision) == 0.0:
     float_diff = float_round(f1 - f2, precision + 1)
     float_allow = 0.5 / pow(10, precision)
     if (float_diff <= float_allow and float_diff >= -float_allow):
@@ -110,10 +92,6 @@ class sale_order_line(orm.Model):
         (_check_uom_category, 'Error! The UoM category of the line and product are not the same ',
             ['product_uom', 'product_id'])
     ]
-    # _constraints = [
-    #     (_check_price, 'Error! Unit-Price X Discount != Final Price ',
-    #         ['discount_dummy', 'original_price', 'price_unit', 'sample'])
-    # ]
 
     def _prepare_order_line_invoice_line(self, cr, uid, line, account_id=False, context=None):
         res = super(sale_order_line, self)._prepare_order_line_invoice_line(
