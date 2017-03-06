@@ -21,7 +21,6 @@
                                     <field name="kits_incoming_qty" class="oe_inline"/>
                                     <field name="kits_outgoing_qty" class="oe_inline"/>
                                     <field name="kits_virtual_available" class="oe_inline"/>
-                                      <!-- <field name="kits_sale_quotation_qty"  class="oe_inline"/> -->
                             </group>
                             <group string="Other Quantity">
                                   <field name="kits_sale_quotation_qty" />
@@ -61,8 +60,6 @@
         		<field name="qty_available" position="before">
         			<field name="is_kit" />
                      <field name="kits_sale_quotation_qty"/>
-<!--         			<field name="kits_qty_available" attrs="{'invisible': ['|', ('type', '=', 'service')]}"/>
-        			<field name="kits_virtual_available" attrs="{'invisible': ['|', ('type', '=', 'service')]}"/> -->
         		</field>
         	</field>
         </record>
@@ -105,7 +102,6 @@
 			</field>
 		</record>
 <!-- add a new menu to show kit products -->
-<!-- <menuitem id="base.menu_product" name="Products" parent="base.menu_base_partner" sequence="9"/> -->
 		<menuitem
 			id="menu_kit_products"
 			name="Kit Products"

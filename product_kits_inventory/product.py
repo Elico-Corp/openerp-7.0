@@ -1,24 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2014 Elico Corp. All Rights Reserved.
-#    Alex Duan <alex.duan@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2016 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
+
 from openerp.osv import orm, fields
 import openerp.addons.decimal_precision as dp
 
@@ -57,11 +40,6 @@ class product_product(orm.Model):
                     'kits_sale_quotation_qty': so_qty
                 }
             #product with no bom
-            # if not product_record.bom_ids:
-            #     raw_res = self._product_available(cr, uid, [product_record.id], field_map.values(), arg, context)
-            #     for key, val in field_map.items():
-            #         res[product_record.id][key] = raw_res[product_record.id].get(val)
-
             #TODO how to deal with multi-bom products.
             #now get always get the first bom.
             #product with bom
@@ -102,8 +80,6 @@ class product_product(orm.Model):
     def _get_qty_from_children(self, child_product_qtys, child_product_res, field_name):
         def qty_div(product_total_qty, component_qty):
             return product_total_qty[1].get(field_name) / component_qty[1].get('product_qty')
-        # import pdb
-        # pdb.set_trace()
         return min(map(qty_div, child_product_qtys.iteritems(), child_product_res.iteritems()))
 
     def _is_kit(self, cr, uid, ids, fields=None, args=False, context=None):
