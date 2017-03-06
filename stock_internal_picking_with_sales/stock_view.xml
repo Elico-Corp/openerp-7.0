@@ -29,11 +29,6 @@
             <field name="view_id" ref="view_picking_internal_tree_step1"/>
             <field name="domain">[('type','=','internal'),('sale_id','!=',False)]</field>
         </record>
-     <!--    <record id="action_picking_internal_sales_form" model="ir.actions.act_window.view">
-            <field name="view_mode">form</field>
-            <field name="view_id" ref="stock.vpicktree"/>
-            <field name="act_window_id" ref="action_picking_quick"/>
-        </record> -->
         <menuitem action="action_picking_internal_with_sales" id="menu_action_picking_internal1" parent="stock.menu_stock_warehouse_mgmt" sequence="2"/>
 
     </data>
