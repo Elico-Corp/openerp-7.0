@@ -12,7 +12,6 @@
                 <field name="price_total" position="after">
                     <field name="section_id"/>
                     <field name="event_id"/>
-                    <!-- <field name="channel_id"/> -->
                 </field>
             </field>
         </record>
@@ -24,7 +23,6 @@
                 <filter string="Salesperson" position="after">
                     <filter string="Sales Team" context="{'group_by': 'section_id'}"/>
                     <filter string="Event" context="{'group_by': 'event_id'}"/>
-                    <!-- <filter string="Channel" context="{'group_by': 'channel_id'}"/> -->
                 </filter>
             </field>
         </record>
