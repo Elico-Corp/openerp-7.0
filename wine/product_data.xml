@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
    <data noupdate="1">
-        <!-- <record model="attribute.attribute" id="attribute_appellation_en">
-            <field name="name">x_appellation_en</field>
-            <field name="field_description">Appellation EN</field>
-            <field name="attribute_type">char</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_appellation_cn">
-            <field name="name">x_appellation_cn</field>
-            <field name="field_description">Appelation CN</field>
-            <field name="attribute_type">char</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_vintage">
-            <field name="name">x_vintage</field>
-            <field name="field_description">Vintage</field>
-            <field name="attribute_type">integer</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_composition">
-            <field name="name">x_composition</field>
-            <field name="field_description">Composition</field>
-            <field name="attribute_type">text</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_alcohol">
-            <field name="name">x_alcohol</field>
-            <field name="field_description">Alcohol</field>
-            <field name="attribute_type">float</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_tasting_notes_en">
-            <field name="name">x_tasting_notes_en</field>
-            <field name="field_description">Tasting notes EN</field>
-            <field name="attribute_type">text</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.attribute" id="attribute_tasting_notes_cn">
-            <field name="name">x_tasting_notes_cn</field>
-            <field name="field_description">Tasting notes CN</field>
-            <field name="attribute_type">text</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
+        
             <record model="attribute.attribute" id="attribute_highlight_notes_en">
             <field name="name">x_highlight_notes_en</field>
             <field name="field_description">Highlight notes EN</field>
@@ -55,35 +14,6 @@
             <field name="attribute_type">text</field>
             <field name="model_id" ref="product.model_product_product"/>
         </record> -->
-     <!--    <record model="attribute.set" id="attribute_set_wine_simple">
-            <field name="name">simple</field>
-            <field name="attribute_group_ids">"attribute_group_wine"</field>
-            <field name="model_id" ref="product.model_product_product"/>
-        </record>
-        <record model="attribute.group" id="attribute_group_wine">
-            <field name="name">general</field>
-            <field name="model_id" ref="product.model_product_product"/>
-            <field name="attribute_set_id" ref="wine.attribute_set_wine_simple" />
-        </record> -->
-        <!-- <record model="attribute.location" id="attribute_location_appellation_en">
-            <field name="sequence">1</field>
-            <field name="attribute_id" ref="wine.attribute_appellation_en" />
-            <field name="attribute_set_id" ref="attribute_set_wine_simple" />
-            <field name="attribute_group_id" ref="wine.attribute_group_wine"/>
-        </record>
-        <record model="attribute.location" id="attribute_location_appellation_cn">
-            <field name="sequence">2</field>
-            <field name="attribute_id" ref="wine.attribute_appellation_cn" />
-            <field name="attribute_set_id" ref="attribute_set_wine_simple" />
-            <field name="attribute_group_id" ref="wine.attribute_group_wine"/>
-        </record>
-        <record model="attribute.location" id="attribute_location_vintage">
-            <field name="sequence">3</field>
-            <field name="attribute_id" ref="wine.attribute_vintage" />
-            <field name="attribute_set_id" ref="attribute_set_wine_simple" />
-            <field name="attribute_group_id" ref="wine.attribute_group_wine"/>
-        </record>
-        <record model="attribute.location" id="attribute_location_composition">
             <field name="sequence">4</field>
             <field name="attribute_id" ref="wine.attribute_composition" />
             <field name="attribute_set_id" ref="attribute_set_wine_simple" />
