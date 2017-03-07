@@ -3,27 +3,28 @@
    :alt: License: AGPL-3
 
 ==================
-sale_cancel
+Sale Cancel
 ==================
 
 Check if any of the delivery is in done state (including chained):
-    in this case not possible to cancel
-    otherwise cancel first all delivery and chained moves + SO
+in this case not possible to cancel
+otherwise cancel first all delivery and chained moves + SO
 
-Configuration
-=============
 
-To configure this module, you need to:
 
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/pull/124>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
 Eric Caudal <eric.caudal@elico-corp.com>
+Alex Duan <alex.duan@elico-corp.com>
 
 Maintainer
 ----------
