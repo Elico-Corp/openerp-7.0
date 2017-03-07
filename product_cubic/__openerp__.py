@@ -5,7 +5,7 @@
 {
     'name': 'Product cubic',
     'version': '7.0.1.0.0',
-    'author': 'Elico Corp <alex.duan@elico-corp.com>',
+    'author': 'Elico Corp ',
     'depends': ['product'],
     'category': 'Generic Modules/Others',
     'description': """
