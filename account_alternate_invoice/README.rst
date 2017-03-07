@@ -19,8 +19,8 @@ feedback.
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
-Jon Chow <jon.chow@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Jon Chow <jon.chow@elico-corp.com>
 
 Maintainer
 ----------
