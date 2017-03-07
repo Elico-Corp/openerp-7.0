@@ -5,7 +5,7 @@
 =========================
 Account Alternate Invoice
 =========================
-account alternate
+Accounting alternate Invoice format
 
 
 Bug Tracker
