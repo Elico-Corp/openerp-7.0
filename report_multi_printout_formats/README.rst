@@ -9,20 +9,20 @@ Report Multi printout formats
 This module provides the functionality that have different
  formats.
 
-Configuration
-=============
-
-To configure this module, you need to:
 
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp/issues>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Alex Duan <alex.duan@elico-corp.com>
 
 Maintainer
 ----------
