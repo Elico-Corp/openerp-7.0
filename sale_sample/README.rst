@@ -13,7 +13,7 @@ the price of sample product line does not include in the sales
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/pull/114>`_. 
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
 In case of trouble, please check there if you issue has been already reported.
 if you spotted it first,help us smash it by providing detailed and welcomed 
 feedback.
@@ -21,8 +21,8 @@ feedback.
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
-Qiao Lei <qiao.lei@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Qiao Lei <qiao.lei@elico-corp.com>
 
 Maintainer
 ----------
