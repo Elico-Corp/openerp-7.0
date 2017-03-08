@@ -15,20 +15,16 @@ This module adds licensors for the products,
 - add a new menu: purchase/licensors to view licensors
 
 
-Configuration
-=============
-
-To configure this module, you need to:
-
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. In case of trouble, please
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Alex Duan <alex.duan@elico-corp.com>
 
 Maintainer
 ----------
