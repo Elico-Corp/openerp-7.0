@@ -8,20 +8,20 @@ Access for Internal Picking with sales
 
 This module shall add message part in the form view of internal picking.
 
-Configuration
-=============
-
-To configure this module, you need to:
 
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* LIN Yu <lin.yu@elico-corp.com>
 
 Maintainer
 ----------
