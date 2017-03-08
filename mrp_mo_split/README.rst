@@ -19,20 +19,20 @@ This module adds a new wizard that allows splitting a production order into two.
 	Andy Lu 2012-09-10
 
 
-Configuration
-=============
-
-To configure this module, you need to:
-
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_.
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Andy Lu <andy.lu@elico-corp.com>
+* Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
 
 Maintainer
 ----------
