@@ -14,21 +14,19 @@ This module introduces a new decimal precision 'Account Line' so that you can ha
 This means that you can have 2 digits for the invoice total calculation (following your accounting standards) and 4 digits for the invoice details and unit price. 
 
 
-
-Configuration
-=============
-
-To configure this module, you need to:
-
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Ian Li <ian.li@elico-corp.com>
 
 Maintainer
 ----------
