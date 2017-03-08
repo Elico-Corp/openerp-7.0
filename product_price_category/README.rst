@@ -9,20 +9,21 @@ Product Price Category
 Display the price category for products.
 
 
-Configuration
-=============
-
-To configure this module, you need to:
-
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/{project_repo}/issues>`_. In case of trouble, please
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
 
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Damiano Falsanisi <damiano.falsanisi@elico-corp.com>
+* Qiao Lei <qiao.lei@elico-corp.com>
+* Yannick Gouin <yannick.gouin@elico-corp.com>
 
 Maintainer
 ----------
