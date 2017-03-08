@@ -12,7 +12,7 @@ Add several fields to the CRM form
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/pull/122>`_. 
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
 In case of trouble, please check there if you issue has been already reported.
 if you spotted it first,help us smash it by providing detailed and welcomed 
 feedback.
@@ -20,8 +20,8 @@ feedback.
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
-Bob Lucas <luo.yumeng@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Bob Lucas <luo.yumeng@elico-corp.com>
 
 Maintainer
 ----------
