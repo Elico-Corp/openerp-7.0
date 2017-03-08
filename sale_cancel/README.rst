@@ -15,7 +15,7 @@ otherwise cancel first all delivery and chained moves + SO
 Bug Tracker
 ===========
 
-Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/pull/124>`_. 
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
 In case of trouble, please check there if you issue has been already reported.
 if you spotted it first,help us smash it by providing detailed and welcomed 
 feedback.
@@ -23,8 +23,8 @@ feedback.
 Contributors
 ------------
 
-Eric Caudal <eric.caudal@elico-corp.com>
-Alex Duan <alex.duan@elico-corp.com>
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Alex Duan <alex.duan@elico-corp.com>
 
 Maintainer
 ----------
