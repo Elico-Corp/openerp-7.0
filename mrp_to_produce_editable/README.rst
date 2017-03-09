@@ -2,11 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=============================
-Mrp to produce eidtable
-=============================
+====================================
+MRP Raw Material to produce editable
+====================================
 
-This module allows the quantity of to producing products editable on MO
+This module allows the quantity of to producing products editable on MO.
 
 Bug Tracker
 ===========
