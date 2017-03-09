@@ -23,21 +23,6 @@
             </field>
         </record>
 
- 	    <!-- This is a sale order inherited form sale.order -->
-<!--	    <record id="view_sale_order_form_warning" model="ir.ui.view">
-	            <field name="name">sale_order_form_warning</field>
-	            <field name="model">sale.order</field>
-	            <field name="type">form</field>
-	            <field name="inherit_id" ref="sale_quotation.view_order_quotation_form"/>
-	            <field name="arch" type="xml">
-	                <data>        
-	                    <xpath expr="/form/notebook/page/group/button[@name='pre_action_wait']" position="replace">
-	                        <button name="action_wait_before" states="draft" string="Confirm Order(W)" type='object' icon="gtk-apply"/>
-	                    </xpath>
-	
-	                </data>
-	        </field>
-	    </record>         -->
     </data>    
 
     <data>
