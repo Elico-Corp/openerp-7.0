@@ -1,24 +1,7 @@
 # -*- encoding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2012 Elico Corp. All Rights Reserved.
-#    Author: Yannick Gouin <yannick.gouin@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
@@ -32,22 +15,6 @@ import tools
 
 class stock_location(orm.Model):
     _inherit = "stock.location"
-
-    # def picking_type_get(
-    #         self, cr, uid, from_location, to_location, context=None):
-    #     """ Gets type of picking.
-    #     @param from_location: Source location
-    #     @param to_location: Destination location
-    #     @return: Location type
-    #     """
-    #     result = super(stock_location, self).picking_type_get(
-    #         cr, uid, from_location, to_location, context=context)
-    #     if (result == 'internal'
-    #         and (from_location.usage in ('supplier', 'customer'))
-    #             and (to_location.usage in ('internal', 'supplier'))):
-    #         result = 'in'
-    #     return result
-
     _columns = {
         'retention_mode': fields.selection(
             [('retention', 'Retention Mode'), ('thru', 'Thru mode')],
