@@ -1,3 +1,7 @@
+# -*-coding:utf-8-*-
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 from openerp.osv import osv, fields
 from openerp import tools
 from openerp.tools.translate import _
@@ -5,9 +9,7 @@ import logging
 import sys
 import threading
 from TrademeAPI import fetch_all_unanswered_questions, fetch_member_id, fetch_members_listing, reply_to_question,fetch_member_id_and_nick;
-#from requests_oauthlib.oauth1_session import OAuth1Session
-#from rauth.service import OAuth1Service, OAuth2Service, OflyService
-#import Queue
+
 
 _logger = logging.getLogger(__name__)
 BASE_URL = "https://api.trademe.co.nz/";

@@ -1,6 +1,10 @@
+# -*-coding:utf-8-*-
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 {
     'name' : 'Trademe Plug-In',
-    'version' : '1.5',
+    'version' : '7.0.1.0.0',
     'author' : 'Matiar Rahman (matiar.rahman@gmail.com)',    
     'depends' : ['sale'],
     'category': 'Generic Modules/Others',
