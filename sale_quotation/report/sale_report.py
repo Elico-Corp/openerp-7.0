@@ -1,24 +1,7 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-Today Elico Corp. All Rights Reserved.
-#    Authors: Eric Caudal <eric.caudal@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 
 import tools
 from osv import fields, osv
@@ -52,8 +35,6 @@ class sale_report(osv.osv):
         'delay': fields.float('Commitment Delay', digits=(16,2), readonly=True),
         'categ_id': fields.many2one('product.category','Category of Product', readonly=True),
         'nbr': fields.integer('# of Lines', readonly=True),
-        #felix add ,for quotation
-        #'originated_from':fields.many2one('sale.order','Originated From',readonly=True),
         'file_number': fields.many2one('crm.lead','File Number',readonly=True),
         'state': fields.selection([
             ('draft', 'Quotation'),
@@ -156,4 +137,3 @@ class sale_report(osv.osv):
             )
         """)
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

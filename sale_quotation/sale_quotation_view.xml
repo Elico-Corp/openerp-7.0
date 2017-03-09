@@ -13,7 +13,6 @@
                     <field name="file_number" />                
                 </field>
                 <field name="date_order" position="replace">            
-                    <!-- <field name="client_order_ref" groups="base.group_extended"/> -->
                     <field name="client_order_ref" />
                 </field>
                 <field name="user_id" position="after">
@@ -129,19 +128,6 @@
                 </field>
             </field>
         </record>
-	<!--
-        <record id="action_quotation_form" model="ir.actions.act_window">
-            <field name="name">Sales Quotations</field>
-            <field name="type">ir.actions.act_window</field>
-            <field name="res_model">sale.order</field>
-            <field name="view_id" ref="view_quotation_tree"/>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="domain">[('state','in',('draft','converted','q_lost','q_converted','cancel'))]</field>
-            <field name="search_view_id" ref="view_sales_quotation_filter"/>
-            <field name="help"></field>
-            <field name="context">{'search_default_Quotations':1}</field>
-        </record>-->
 
         <record id="action_quotation_reason_tree" model="ir.actions.act_window">
             <field name="name">Quotation Reason</field>
