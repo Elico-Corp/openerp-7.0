@@ -7,9 +7,10 @@ Check Partner credit limit
 =============================
 
 Check the credit limit of the customer and:
-        - Adds one warning when clicking on SO confirm button
-        - block the delivery order process button.
-        Allows a manager to authorize the delivery 
+
+- Adds one warning when clicking on SO confirm button
+- block the delivery order process button.
+- Allows a manager to authorize the delivery 
 
 Bug Tracker
 ===========
