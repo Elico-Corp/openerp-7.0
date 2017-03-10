@@ -8,7 +8,7 @@
     "name" : "Pricelists extension",
     "version" : "7.0.1.0.0",
     "author" : "Elico Corp",
-	"website" : "http://www.openerp.net.cn",
+	"website" : "https://www.elico-corp.com",
     "category" : "Sales",
     "depends" : ["base", "product"],
     "description": """
