@@ -5,8 +5,8 @@
 {
     'name': 'Portal Supplier Account',
     'version': '7.0.1.0.0',
-    'author': 'OpenERP SA',
-    'website': 'http://www.openerp.com',
+    'author': 'Elico Corp',
+    'website': 'http://www.elico-corp.com',
     'depends': ['purchase', 'portal', 'base'],
     'data': ['group_portal_supplier.xml', 'menu_portal_supplier.xml', 'security/ir.model.access.csv'],
     'installable': True,
