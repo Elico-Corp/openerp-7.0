@@ -3,7 +3,7 @@
    :alt: License: AGPL-3
 
 =============================
-Stock Dp Extra
+Stock Decimal Precision Extra
 =============================
 
 This module corrects the following limitations in OpenERP standard modules:
