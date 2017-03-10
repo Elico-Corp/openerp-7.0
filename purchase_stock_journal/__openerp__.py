@@ -5,7 +5,8 @@
 {
     'name': 'Purchase stock journal ',
     'version': '7.0.1.0.0',
-    'author': 'Elico Corp <alex.duan@elico-corp.com>',
+    'author': 'Elico Corp',
+    'website': 'https://www.elico-corp.com',
     'depends': ['stock', 'purchase'],
     'category': 'Generic Modules/Others',
     'description': """
