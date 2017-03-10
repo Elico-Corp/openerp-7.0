@@ -6,7 +6,7 @@
     'name': 'Portal Product',
     'version': '7.0.1.0.0',
     'author': 'Elico',
-    'website': 'http://www.openerp.com',
+    'website': 'http://www.elico-corp.com',
     'depends': ['product', 'portal'],
     'data': [
         'view_portal_product.xml',
