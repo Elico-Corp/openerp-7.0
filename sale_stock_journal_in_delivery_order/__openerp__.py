@@ -4,6 +4,7 @@
 
 {
     'name': 'Sale stock journal in delivery order',
+    'website': 'https://www.elico-corp.com',
     'version': '7.0.1.0.0',
     'author': 'Elico Corp <alex.duan@elico-corp.com>',
     'depends': ['stock', 'sale_stock'],
