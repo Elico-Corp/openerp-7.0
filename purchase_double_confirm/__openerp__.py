@@ -8,10 +8,10 @@
     'version': '7.0.1.0.0',
     'category': 'Purchases',
     'description': """
-        Button on PO will pop a question, give the operator a chance to confirm.
+        Button on PO will pop a question, give the operator a possibility to confirm.
     """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'www.elico-corp.com',
     'depends': ['purchase'],
     'update_xml': [
         'purchase_confirm_view.xml',
