@@ -10,9 +10,9 @@
     'category': 'Custom',
     'description': """
 
-	This is a slow-moving analysis report aimed to classified the products according to their stock rotation
-	in order to identify slow-moving products. 
-	Features
+This is a slow-moving analysis report aimed to classified the products according 
+to their stock rotation	in order to identify slow-moving products. 
+	
 	- Add a scheduler has been added to create a table nightly
 	- This report is based on webkit
 	- only displays references with stock
