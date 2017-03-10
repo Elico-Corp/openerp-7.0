@@ -6,7 +6,7 @@
 Sale Project
 =============================
 
-Sales 
+Link Sales and Project.
 
 Bug Tracker
 ===========
