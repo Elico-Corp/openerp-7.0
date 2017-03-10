@@ -16,7 +16,7 @@
             * Auto Process to finish
     """,
     'author': 'Elico Corp.',
-    'website': 'http://www.openerp.com.cn',
+    'website': 'http://www.elico-corp.com',
     'depends': ['stock'],
     'update_xml': ['wizard/stock_batch_track_view.xml',
         'stock_batch_track_report_view.xml'],
