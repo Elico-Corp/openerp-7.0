@@ -4,7 +4,7 @@
 
 
 {
-    'name': 'Stock Dp Extra',
+    'name': 'Stock Decimal Precision Extra',
     'version': '7.0.1.0.0',
     'category': 'Warehouse',
     'description': """
@@ -15,7 +15,7 @@ This module introduces a new decimal precision 'Stock Move' so that you can have
 This means that you can have 2 digits for the accounting and 4 digits for the stock move. 
 """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'http://www.elico-corp.com',
     'depends': ['decimal_precision', 'stock'],
     'update_xml': [
 		'data/decimal.precision.xml',
