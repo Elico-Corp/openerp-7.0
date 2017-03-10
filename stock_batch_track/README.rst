@@ -7,6 +7,7 @@ Stock Batch Track
 =============================
 
 Batch Process:
+
             * Set Pack
             * Cancel Availability
             * Check Availability
