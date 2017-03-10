@@ -6,7 +6,7 @@
 Purchase Order Approvement 
 =============================
 
-Button on PO will pop a question, give the operator a chance to confirm.
+Button on PO will pop a question, give the operator a possibility to confirm.
 
 Bug Tracker
 ===========
