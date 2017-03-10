@@ -6,7 +6,7 @@
 Portal Supplier Account
 =============================
 
-portal supply
+Add portal supplyer account
 
 Bug Tracker
 ===========
