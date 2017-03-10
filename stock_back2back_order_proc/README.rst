@@ -1,13 +1,11 @@
-# -*- coding: utf-8 -*-
-# © 2014 Elico corp(www.elico-corp.com)
-# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 
+=============================
+Stock Back-to-back orders
+=============================
 
-{
-    'name': 'Stock Back-to-back orders',
-    'version': '7.0.1.0.0',
-    'category': 'Warehouse',
-    'description': """
 This module aims to change the original back-order logic of OpenERP in chained locations introducing true back-to-back orders.
 
 STANDARD OPENERP BACK-TO-BACK ORDER BEHAVIOR:
@@ -61,14 +59,44 @@ Please note:
 - Later on, DN2 and DN4 can be shipped separately (as they are setup as manual in this example)
 - As many back order as necessary can be created: all chained moves are automatically updated and created accordingly
 - this behavior works as well in case of sales orders.
-""",
-    'author': 'Elico Corp',
-    'website': 'http://www.elico-corp.com/',
-    'depends': ['sale', 'stock', 'procurement', 'purchase'],
-    "category" : "Generic Modules/Inventory Control",
-    'update_xml': [
-        'stock_view.xml'
-	],
-    'installable': True,
-    'active': False,
-}
+
+Bug Tracker
+===========
+
+Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
+In case of trouble, please check there if you issue has been already reported.
+if you spotted it first,help us smash it by providing detailed and welcomed 
+feedback.
+
+Contributors
+------------
+
+* Eric Caudal <eric.caudal@elico-corp.com>
+* Yannick Gouin <yannick.gouin@elico-corp.com>
+
+Maintainer
+----------
+
+.. image:: https://www.elico-corp.com/logo.png
+   :alt: Elico Corp
+   :target: https://www.elico-corp.com
+
+This module is maintained by Elico Corporation.
+
+Elico Corp is an innovative actor in China, Hong-Kong and Singapore servicing
+well known international companies and as well as local mid-sized businesses.
+Since 2010, our seasoned Sino-European consultants have been providing full
+range Odoo services:
+
+* Business consultancy for Gap analysis, BPM, operational work-flows review. 
+* Ready-to-use ERP packages aimed at starting businesses.
+* Odoo implementation for manufacturing, international trading, service industry
+  and e-commerce. 
+* Connectors and integration with 3rd party software (Magento, Taobao, Coswin,
+  Joomla, Prestashop, Tradevine etc...).
+* Odoo Support services such as developments, training, maintenance and hosting.
+
+Our headquarters are located in Shanghai with branch in Singapore servicing
+customers from all over Asia Pacific.
+
+Contact information: `Sales <contact@elico-corp.com>`__
