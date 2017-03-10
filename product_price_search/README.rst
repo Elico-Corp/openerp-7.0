@@ -6,7 +6,7 @@
 Product Price Search 
 =============================
 
-User can quickly search the product price base on the quality.
+User can quickly search the product price base on the quantity.
 
 Bug Tracker
 ===========
