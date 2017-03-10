@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=============================
+===============================
 Product Decimal Precision Extra 
-=============================
+===============================
 
 This module corrects the following limitations in OpenERP standard modules:
 - In standard product module, standard cost in product_template is defined following 'Account' decimal precision.
