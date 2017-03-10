@@ -6,7 +6,7 @@
 Procurement Supply Ext
 =============================
 
-Support a new field supply_method for planner to confirm.
+Support a new field supply_method for planner to confirm it at procurement level.
 Default value is from product when confirm the sale order.
 
 Bug Tracker
