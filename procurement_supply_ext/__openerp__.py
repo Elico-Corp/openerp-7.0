@@ -8,7 +8,7 @@
     'name' : 'Procurement Supply Ext',
     'version' : '7.0.1.0.0',
     'author': 'Elico Corp',
-    'website': 'www.openerp.net.cn',
+    'website': 'www.elico-corp.com',
     'category' : 'Generic Modules/Production',
     'depends' : ['procurement', 'sale', 'l10n_cn_apem_procurement'],
     'description': """
