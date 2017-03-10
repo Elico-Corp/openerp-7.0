@@ -9,7 +9,7 @@
     'author': 'Elico Corp',
     'website': 'http://www.elico-corp.com',
     'description' : """
-    User can quickly search the product price base on the quality.
+    User can quickly search the product price base on the quantity.
     """,
     'depends': ['base','product',],
     'category': '',
