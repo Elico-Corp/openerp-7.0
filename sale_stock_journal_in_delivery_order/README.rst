@@ -8,11 +8,11 @@ Sale Stock Journal In Deliverly Order
 
 This module add field on warehouse and pass from SO to DO..
 
-A stock journal should be assigned per warehouse and
-    used in the DO created from the SO.
-Add field at warehouse level (not mandatory)
-Modify the method to create the stock picking to include the
-journal from shop/warehouse (if there is one)
+* A stock journal should be assigned per warehouse and
+  used in the DO created from the SO.
+* Add field at warehouse level (not mandatory)
+* Modify the method to create the stock picking to include the
+  journal from shop/warehouse (if there is one)
 
 Bug Tracker
 ===========
