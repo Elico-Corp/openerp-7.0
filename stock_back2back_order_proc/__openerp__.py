@@ -63,7 +63,7 @@ Please note:
 - this behavior works as well in case of sales orders.
 """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn/',
+    'website': 'http://www.elico-corp.com/',
     'depends': ['sale', 'stock', 'procurement', 'purchase'],
     "category" : "Generic Modules/Inventory Control",
     'update_xml': [
