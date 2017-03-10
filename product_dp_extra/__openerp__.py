@@ -5,7 +5,7 @@
 
 
 {
-    'name': 'Product Dp Extra',
+    'name': 'Product Decimal Precision Extra',
     'version': '7.0.1.0.0',
     'category': 'Manufacturing',
     'description': """
@@ -16,7 +16,7 @@ This module introduces a new decimal precision 'Standard Cost' so that you can h
 This means that you can have 2 digits for the accounting and 4 digits for the standard cost. 
 """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'http://www.elico-corp.com',
     'depends': ['decimal_precision', 'product'],
     'update_xml': [
 		'data/decimal.precision.xml',
