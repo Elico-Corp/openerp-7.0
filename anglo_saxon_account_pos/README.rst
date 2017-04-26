@@ -2,12 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=======================
-POS Account Improvement
-=======================
+==========================
+POS Anglosaxon Accounting
+==========================
 
-POS Account improvement:
-    * group by pos session for bank statement.
+POS Anglo-saxon accounting compatibility.
 
 
 Bug Tracker
