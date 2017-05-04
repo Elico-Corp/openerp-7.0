@@ -9,7 +9,8 @@ Delivery Time Plan
 * Plan delivery time for sale order
 * Add delivery return reason,
 * Calculate sale order dts, pts based on order start_date, enddate,
-* Compute dts,pts of delivery order based on start_date and end date of sale order, delivery zone of partner.
+* Compute Delivery Timeslots, Preparation Timeslots of delivery order based
+  on start_date and end date of sale order, delivery zone of partner.
 
 Bug Tracker
 ===========
