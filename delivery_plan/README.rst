@@ -6,7 +6,10 @@
 Delivery Time Plan
 =============================
 
-add a related field(carrier's website.) to the DO
+* Plan delivery time for sale order
+* Add delivery return reason,
+* Calculate sale order dts, pts based on order start_date, enddate,
+* Compute dts,pts of delivery order based on start_date and end date of sale order, delivery zone of partner.
 
 Bug Tracker
 ===========
@@ -20,7 +23,8 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Alex Duan <alex.duan@elico-corp.com>
+* Chen Rong <chen.rong@elico-corp.com>
+* 
 
 Maintainer
 ----------
