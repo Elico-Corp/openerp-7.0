@@ -8,13 +8,16 @@ Base Intercompany
 
 This module is the structure designed to manage Inter-company Process (ICOPS)
 and allows 2 companies to create objects in each other.
+
 This module needs to be installed with one of the following modules:
+
      - Base Intercompany Sale
      - Base Intercompany Stock (in development)
      - Any module which extends the Base Intercompany module
 
-TODO: demo data to be improved.\n
-Blueprint: https://blueprints.launchpad.net/multi-company/+spec/icops
+TODO: demo data to be improved.
+
+<Blueprint <https://blueprints.launchpad.net/multi-company/+spec/icops>`_
 
 Bug Tracker
 ===========
