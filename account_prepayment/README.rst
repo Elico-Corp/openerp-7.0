@@ -7,31 +7,28 @@ Account Prepayment
 =============================
 
 * add the prepayment account in the partner
-
 * add a check box in the payment form Prepayment: if checked the prepayment account in the partner will be chosen
-
 * Usage for Supplier: Normal Payment (Choose the invoice in the payment form)
-AP    debit   3000
 
-Bank  Credit  -3000
+AP            Debit   3000
+Bank          Credit  -3000
 
 
 * Prepayment Move (At money reception, use the payment form with prepayment and select no invoice). It creates:
-Prepayment    debit   1000
 
-Bank      Credit  -1000
+Prepayment    Debit   1000
+Bank          Credit  -1000
 
 * Create an Invoice
-AP        Credit  -3000
 
-Sales       Debit   3000
+Sales         Debit   3000
+AP            Credit  -3000
 
 * New Payment (after invoice is created)Use the payment form (no prepayment option and select the invoice and already existing Prepayment move)
+
+AP            Debit   3000
 Prepayment    Credit  -1000
-
-AP        Debit   3000
-
-Bank      Credit  -2000
+Bank          Credit  -2000
 
 Bug Tracker
 ===========
