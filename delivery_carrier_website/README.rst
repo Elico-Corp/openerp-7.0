@@ -3,7 +3,7 @@
    :alt: License: AGPL-3
 
 =============================
-Delivery Time Plan
+Delivery Carrier Website
 =============================
 
 add a related field(carrier's website.) to the DO
