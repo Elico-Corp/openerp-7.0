@@ -22,7 +22,7 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Jon Chow <jon.chow@elico-corp.com>
+* Alex Duan <alex.duan@elico-corp.com>
 
 Maintainer
 ----------
