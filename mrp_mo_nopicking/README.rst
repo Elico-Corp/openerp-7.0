@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=========================
+==========================================
 MO for Non Standard Manufacturing Products
-=========================
+==========================================
 Manage the Non Standard Manufacturing Product with no BoM in OpenERP
         
 * Allows to manage the transition when implementing MRP in the project
