@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+# © 2011 SYLEAM Info Services (http://www.Syleam.fr)
+# © 2011 Sylvain Garancher (sylvain.garancher@syleam.fr)
+# © 2011 Sebastien LANGE (sebastien.lange@syleam.fr)
 # © 2014 Elico corp(www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
