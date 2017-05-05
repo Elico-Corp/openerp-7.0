@@ -2,15 +2,13 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=========================
+===================================
 Purchase Landed Costs -- Duty zones
-=========================
+===================================
 
 Modification on purchase_landed_costs:
 
 * no invoices created for landed cost any more when the po confirmed.
-
-
 
 Bug Tracker
 ===========
