@@ -7,9 +7,9 @@ Raw Material change in MO
 =============================
 
 The module allows you to:
-		=============================
-        * Add new products to consume in a confirmed MO.
-        * Cancel products to consume in a confirmed MO.
+
+* Add new products to consume in a confirmed MO.
+* Cancel products to consume in a confirmed MO.
         
 Bug Tracker
 ===========
