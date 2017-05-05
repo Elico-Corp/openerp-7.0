@@ -32,4 +32,4 @@ class stock_location(osv.osv):
 
 stock_location()
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
