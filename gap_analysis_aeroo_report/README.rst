@@ -6,16 +6,18 @@
 Gap Analysis Aeroo Report
 =============================
 
-* Generate a gap-analysis with cost estimation
-     
-* To generate .xls instead of .ods
+Introduction:
 
+* Generate a gap-analysis with cost estimation
+* To generate .xls instead of .ods
 * download and install report_aeroo_ooo
 
-* Current addon Limit
+Current addon Limit:
 
 * The columns are not managed dynamically, so the you can make a report with <= 6 workload type.
 * You can have more workload type used in your gap analysis, but they won't be shown. 	
+
+As of version 8 a new approach has been taken with the following project: `Business Requirements <https://github.com/OCA/business-requirement/>`_
 
 Bug Tracker
 ===========
