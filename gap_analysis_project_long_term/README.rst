@@ -2,11 +2,13 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=============================
+==============================
 Gap Analysis Project Long Term
-=============================
+==============================
 
 This module provides the necessary tools to manage Phases in your Gap Analysis and generated project.
+
+As of version 8 a new approach has been taken with the following project: `Business Requirements <https://github.com/OCA/business-requirement/>`_
 
 Bug Tracker
 ===========
