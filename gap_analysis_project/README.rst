@@ -7,6 +7,8 @@ Gap Analysis Project
 =========================
 This module provides the necessary tools to generate a new project with all the task from the Gap Analysis.
 
+As of version 8 a new approach has been taken with the following project: `Business Requirements <https://github.com/OCA/business-requirement/>`_
+
 Bug Tracker
 ===========
 
