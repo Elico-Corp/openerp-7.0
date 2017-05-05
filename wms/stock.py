@@ -1,27 +1,6 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    wms module for OpenERP, This module allows to manage crossdocking in warehouses
-#    Copyright (C) 2011 SYLEAM Info Services (<http://www.Syleam.fr/>)
-#              Sylvain Garancher <sylvain.garancher@syleam.fr>
-#              Sebastien LANGE <sebastien.lange@syleam.fr>
-#
-#    This file is a part of wms
-#
-#    wms is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    wms is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 from openerp.osv import osv
 from openerp.osv import fields
