@@ -2,14 +2,14 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=========================
+=====================================
 MRP support Add or Cancel the moves
-=========================
+=====================================
 
 The module allows you to:
 
 * Add new products to consume directly.
-* Cancel(Scrap) products to consume directly.
+* Cancel (Scrap) products to consume directly.
 * recalculate cost
 
 Bug Tracker
