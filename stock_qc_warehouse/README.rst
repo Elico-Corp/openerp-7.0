@@ -7,6 +7,7 @@ Quality Management
 =========================
 
 Simple module to allow a control of the stock moves by the QC users.
+
         - This module adds 2 QC groups (user and manager) and create the QC check in location 
         - Only QC user / manager can process moves from a QC location
 
