@@ -25,7 +25,7 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Jon Chow <jon.chow@elico-corp.com>
+* Cubic ERP - Teradata SAC(http://cubicerp.com)
 
 Maintainer
 ----------
