@@ -19,7 +19,7 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Jon Chow <jon.chow@elico-corp.com>
+* Yannick Gouin <yannick.gouin@elico-corp.com>
 
 Maintainer
 ----------
