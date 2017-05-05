@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=========================
+===========================
 Warehouse Management System
-=========================
+===========================
 This module is extensions to stock module
 
 Bug Tracker
