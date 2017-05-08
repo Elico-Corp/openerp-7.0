@@ -17,7 +17,7 @@ This module needs to be installed with one of the following modules:
 
 TODO: demo data to be improved.
 
-<Blueprint <https://blueprints.launchpad.net/multi-company/+spec/icops>`_
+`Blueprint <https://blueprints.launchpad.net/multi-company/+spec/icops>`_
 
 Bug Tracker
 ===========
@@ -31,8 +31,6 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Eric CAUDAL <contact@elico-corp.com>
-
 
 Maintainer
 ----------
