@@ -2,9 +2,9 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=============================
+================================================
 Chinese/English Bilingual picking out/in Reports
-=============================
+================================================
 
 Chinese/English Bilingual picking out/in Reports
 
@@ -20,7 +20,6 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Chen Puyu <chen.puyu@elico-corp.com>
 * Lin Yu <lin.yu@elico-corp.com>
 
 Maintainer
