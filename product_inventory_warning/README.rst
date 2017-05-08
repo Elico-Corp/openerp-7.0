@@ -22,6 +22,7 @@ Contributors
 * Eric Caudal <eric.caudal@elico-corp.com>
 * Andy Lu <andy.lu@elico-corp.com>
 * LIN Yu <lin.yu@elico-corp.com>
+* Yannick Gouin <yannick.gouin@elico-corp.com>
 
 Maintainer
 ----------
