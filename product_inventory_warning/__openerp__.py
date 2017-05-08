@@ -1,37 +1,21 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2013 Elico Corp. All Rights Reserved.
-#    Author:    Andy Lu <andy.lu@elico-corp.com>
-#               LIN Yu <lin.yu@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Andy Lu (andy.lu@elico-corp.com)
+# © 2014 LIN Yu (lin.yu@elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 
 {
     'name': 'Product Inventory Warning',
-    'version': '1',
+    'version': '7.0.1.0.0',
     'category': 'Product',
     'sequence': 1,
     'summary': 'Product Inventory Warning',
     'description': """
-Product Inventory Warning
-==================================================
+        Product Inventory Warning
+        ==================================================
 
-Add a wizard to calculate the QTY of product.
+        Add a wizard to calculate the QTY of product.
     """,
     'author': 'Elico Corp',
     'website': 'http://www.elico-corp.com',
@@ -50,4 +34,4 @@ Add a wizard to calculate the QTY of product.
     'application': False,
 }
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
