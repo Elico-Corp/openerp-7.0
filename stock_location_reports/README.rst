@@ -5,11 +5,11 @@
 =========================
 Stock Location Reports
 =========================
-Add Three new reports for warehouse management:
 
-* stock location reports
-* stock location overall reports
-* stock inventory reports
+Add Three new reports for warehouse management:
+            * stock location reports
+            * stock location overall reports
+            * stock inventory reports
 
 Bug Tracker
 ===========
@@ -23,7 +23,7 @@ Contributors
 ------------
 
 * Eric Caudal <eric.caudal@elico-corp.com>
-* Jon Chow <jon.chow@elico-corp.com>
+* Yannick Gouin <yannick.gouin@elico-corp.com>
 
 Maintainer
 ----------
