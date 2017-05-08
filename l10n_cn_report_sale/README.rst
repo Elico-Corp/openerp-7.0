@@ -3,10 +3,10 @@
    :alt: License: AGPL-3
 
 =============================
-Chinese/English Bilingual PO
+Chinese/English Bilingual SO
 =============================
 
-Chinese/English Bilingual PO Reports 
+Chinese/English Bilingual SO Reports 
 
 Bug Tracker
 ===========
@@ -21,7 +21,6 @@ Contributors
 
 * Eric Caudal <eric.caudal@elico-corp.com>
 * Lin Yu <lin.yu@elico-corp.com>
-* Chen Puyu <chen.puyu@elico-corp.com>
 
 Maintainer
 ----------
