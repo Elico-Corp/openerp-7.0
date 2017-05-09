@@ -7,11 +7,14 @@ Mail Organizer
 =============================
 
 This module allows you to assign a message to an existing or a new resource dynamically.
+
 You can configure the available model through
 "Settings" -> "Technical" -> "Email Organizer"
 
 Screencasts available at:
+
 https://www.youtube.com/watch?v=XYgswq6_J1I
+
 http://v.youku.com/v_show/id_XNjc3Njc0Nzky.html
 
 Bug Tracker
@@ -27,8 +30,6 @@ Contributors
 
 * Eric Caudal <eric.caudal@elico-corp.com>
 * Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
-* Qiao Lei <qiao.lei@elico-corp.com>
-* Yannick Gouin <yannick.gouin@elico-corp.com>
 
 Maintainer
 ----------
