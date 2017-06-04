@@ -6,7 +6,7 @@
 stock paid before delivery
 =============================
 
-stock pay
+Force stock payment before the delivery
 
 Bug Tracker
 ===========
