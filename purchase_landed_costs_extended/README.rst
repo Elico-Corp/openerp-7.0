@@ -2,11 +2,11 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-=============================
+==============================
 Purchase Landed Costs Extended
-=============================
+==============================
 
-Purchase Landed Costs Extended
+Adds multiple features to Purchase Landed Costs
 
 Bug Tracker
 ===========
