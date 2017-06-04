@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 {
@@ -11,7 +11,7 @@
 This module provides the necessary tools to generate a new project with all the task from the Gap Analysis.
 """,
     'author': 'Elico Corp',
-    'website': 'http://www.elico-corp.com',
+    'website': 'https://www.elico-corp.com',
     'images': [],
     'depends': ['gap_analysis'],
     'init_xml': [],

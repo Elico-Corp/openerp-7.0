@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 {
@@ -20,7 +20,7 @@
     Sales Quotation status should allow to identify in which states is a
     quotation (lost and converted).""",
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'https://www.elico-corp.com',
     'depends': ['sale', 'sale_crm', 'sale_project', 'sale_stock'],
     'data': [
         'security/ir.model.access.csv',

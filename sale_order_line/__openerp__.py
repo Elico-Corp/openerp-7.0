@@ -48,7 +48,7 @@
     - Green: Order
     """,
     'author': 'Elico Corp',
-    'website': 'http://www.elico-corp.com',
+    'website': 'https://www.elico-corp.com',
     'images': [],
     'depends': ['product', 'purchase', 'warning', 'mmx_product_advance', 'sale_menu'],
     'data': [

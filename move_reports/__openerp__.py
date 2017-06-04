@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # © 2004-2010 Tiny SPRL (http://tiny.be).
-# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 
@@ -21,7 +21,7 @@
          * Move Report ()
     """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'https://www.elico-corp.com',
     'images' : [],
     'depends': ['stock_with_cost','product_stock_type'],
     'data': [        

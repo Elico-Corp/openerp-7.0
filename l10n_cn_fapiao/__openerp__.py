@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # © 2004-2010 Tiny SPRL (http://tiny.be)
-# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 
@@ -23,7 +23,7 @@
         * Step 5: Fapiao allocation to invoice: Fapiao and OpenERP invoices can be linked to each other
     """,
     'author': 'Elico Corp',
-    'website': 'http://www.openerp.net.cn',
+    'website': 'https://www.elico-corp.com',
     'images': [],
     'depends': ['account'],
     'data': [

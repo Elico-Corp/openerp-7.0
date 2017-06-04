@@ -3,8 +3,8 @@
     <data>
 
         <!-- Inherit res.partner form view and add customer=False,supplier=False on child_ids's context-->
-        <record id="sarment_view_partners_form_inherit" model="ir.ui.view">
-                <field name="name">sarment.view.partners.form.inherit</field>
+        <record id="company_view_partners_form_inherit" model="ir.ui.view">
+                <field name="name">company.view.partners.form.inherit</field>
                 <field name="model">res.partner</field>
                 <field name="inherit_id" ref="base.view_partner_form"/>
                 <field name="arch" type="xml">
@@ -19,8 +19,8 @@
         </record>
         
         <!-- Inherit make quotation wizard on opprtunity and add default customer and supplier False -->
-        <record id="sarment_view_crm_make_sale" model="ir.ui.view">
-            <field name="name">sarment.view.crm.make.sale.inherit</field>
+        <record id="company_view_crm_make_sale" model="ir.ui.view">
+            <field name="name">company.view.crm.make.sale.inherit</field>
             <field name="model">crm.make.sale</field>
             <field name="inherit_id" ref="sale_crm.view_crm_make_sale"/>
             <field name="arch" type="xml">
@@ -31,8 +31,8 @@
         </record>
         
         <!-- Inherit opprtunity form view and add default customer and supplier False -->
-        <record id="sarment_crm_case_form_view_oppor" model="ir.ui.view">
-            <field name="name">sarment.crm.case.form.view.oppor.inherit</field>
+        <record id="company_crm_case_form_view_oppor" model="ir.ui.view">
+            <field name="name">company.crm.case.form.view.oppor.inherit</field>
             <field name="model">crm.lead</field>
             <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
             <field name="arch" type="xml">

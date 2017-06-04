@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# © 2016 Elico corp(www.elico-corp.com)
+# © 2016 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or Later(http://www.gnu.org/licenses/agpl.html)
 
 
@@ -7,7 +7,7 @@
     'name': 'pos report with total discount',
     'version': '7.0.1.0.0',
     'author': 'Elico Corp',
-    'website': 'http://www.elico-corp.com',
+    'website': 'https://www.elico-corp.com',
     'summary': 'The POS report should have display the total without discount.',
     'description': """
         * The POS report should have display the total without discount.

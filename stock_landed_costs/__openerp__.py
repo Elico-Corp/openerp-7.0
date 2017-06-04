@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# © 2014 Elico corp(www.elico-corp.com)
+# © 2014 Elico Corp (https://www.elico-corp.com)
 # Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
 
 
@@ -10,7 +10,7 @@
      # depends on sale_automatic_workflow because we wanna use the sale_ids on invoice.
      'depends': ['account', 'stock',
                  'purchase_landed_costs_extended',
-                 'anglo_saxon_account_pos', 'account_anglo_saxon',
+                 'pos_anglo_saxon_accounting', 'account_anglo_saxon',
                  'sale_automatic_workflow'],
      'author': 'Elico Corp',
      'license': 'AGPL-3',

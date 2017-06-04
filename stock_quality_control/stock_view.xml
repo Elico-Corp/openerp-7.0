@@ -10,7 +10,7 @@
             <field name="inherit_id" ref="stock.view_location_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='scrap_location']" position="after">
-                    <field name="qc_location" groups="quality_control_elico.group_qc_user"/>
+                    <field name="qc_location" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
@@ -24,7 +24,7 @@
             <field name="inherit_id" ref="stock.view_picking_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='origin']" position="after">
-                    <field name="qc_picking" groups="quality_control_elico.group_qc_user"/>
+                    <field name="qc_picking" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
@@ -39,7 +39,7 @@
             <field name="inherit_id" ref="stock.view_picking_in_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//button[@name='action_process']" position="replace">
-                    <button name="action_process" states="assigned" string="Receive" type="object" class="oe_highlight" groups="quality_control_elico.group_qc_user"/>
+                    <button name="action_process" states="assigned" string="Receive" type="object" class="oe_highlight" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
@@ -50,7 +50,7 @@
             <field name="inherit_id" ref="stock.view_picking_out_form"/>
             <field name="arch" type="xml">
                 <xpath expr="/form/header//button[@name='action_process']" position="replace">
-                    <button name="action_process" states="assigned" string="Deliver" type="object" class="oe_highlight" groups="quality_control_elico.group_qc_user"/>
+                    <button name="action_process" states="assigned" string="Deliver" type="object" class="oe_highlight" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
@@ -61,7 +61,7 @@
             <field name="inherit_id" ref="stock.view_move_form"/>
             <field name="arch" type="xml">
                 <xpath expr="/form/sheet//button[@string='Scrap']" position="replace">
-                    <button name="280" string="Scrap" type="action" icon="terp-gtk-jump-to-ltr" context="{'scrap': True}" states="draft,waiting,confirmed,assigned" colspan="1" groups="quality_control_elico.group_qc_user"/>
+                    <button name="280" string="Scrap" type="action" icon="terp-gtk-jump-to-ltr" context="{'scrap': True}" states="draft,waiting,confirmed,assigned" colspan="1" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
@@ -72,7 +72,7 @@
             <field name="inherit_id" ref="stock.view_move_picking_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//button[@string='Scrap']" position="replace">
-                	<button name="280" string="Scrap" type="action" icon="terp-gtk-jump-to-ltr" context="{'scrap': True}" states="draft,waiting,confirmed,assigned" groups="quality_control_elico.group_qc_user"/>
+                	<button name="280" string="Scrap" type="action" icon="terp-gtk-jump-to-ltr" context="{'scrap': True}" states="draft,waiting,confirmed,assigned" groups="stock_quality_control.group_qc_user"/>
                 </xpath>
             </field>
         </record>
