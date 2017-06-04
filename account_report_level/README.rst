@@ -7,8 +7,9 @@ account report level
 ====================
 
  Allow the possibility to increase the level of details for the following documents:
-        - Balance sheet
-        - Profit and Loss
+ 
+- Balance sheet
+- Profit and Loss
 
 
 Bug Tracker
