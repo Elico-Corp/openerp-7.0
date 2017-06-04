@@ -2,15 +2,15 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-==========================
-customer supplier default
-==========================
+==================
+company id
+==================
+Company's id
 
-* Un-select customer or supplier by default when creating contacts for companies.
-* Assign "Staff" tag to contact linked to users.
-* Make Partner Checked When Converting a quotation.
+
 Bug Tracker
 ===========
+
 Bugs are tracked on `<https://github.com/Elico-Corp/openerp-7.0/issues>`_. 
 In case of trouble, please check there if you issue has been already reported.
 if you spotted it first,help us smash it by providing detailed and welcomed 
@@ -18,8 +18,9 @@ feedback.
 
 Contributors
 ------------
+
 * Eric Caudal <eric.caudal@elico-corp.com>
-* LIN Yu <lin.yu@elico-corp.com>
+* Chen Rong <chen.rong@elico-corp.com>
 
 Maintainer
 ----------
