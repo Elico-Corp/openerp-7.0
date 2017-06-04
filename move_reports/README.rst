@@ -7,10 +7,11 @@ Move Report
 =============================
 
 python lib dependancy : xlsxwriter.
-     * Purchase Order
-     * RFQ
-     * Picking
-     * Move Report ()
+
+* Purchase Order
+* RFQ
+* Picking
+* Move Report ()
         
 Bug Tracker
 ===========
@@ -25,7 +26,7 @@ Contributors
 
 * Eric Caudal <eric.caudal@elico-corp.com>
 * Andy Lu <andy.lu@elico-corp.com>
-* LIN Yu<lin.yu@elico-corp.com>
+* LIN Yu <lin.yu@elico-corp.com>
 
 
 Maintainer
