@@ -8,9 +8,10 @@ Product cubic
 
 This module adds fields to product:
 
-new fields:
+New fields:
+
     * height
-    * legth
+    * length
     * width
     * cubic_weight: height/100.0 * width/100.0 * length/100.0 * 250.0
 
