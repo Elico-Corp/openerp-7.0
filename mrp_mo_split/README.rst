@@ -7,17 +7,15 @@ Manufacturing Order Splitting Wizard
 ====================================
 
 This module adds a new wizard that allows splitting a production order into two.
-	Based on the original module Developed by NaN-tic for Trod y Avia, S.L.
+Based on the original module Developed by NaN-tic for Trod y Avia, S.L.
 
-	We, Elico corp fixed the bugs and modify the workflow of Manufacturing Order.
-	Support:
-	-- R/M assigned, can start Manufacturing Order
-	-- Modifyt the QTY of R/M in the picking, then synchronize the QTY when Start Order.
-	-- Create a picking for produce product, link to the exist stock move.
-	-- When you produce the order, the picking move of produce product to be Available ,not Done.
-	-- When you finish the picking, then close the Manufacturing order automatically.   
-	Andy Lu 2012-09-10
-
+This module fixed some bugs and modify the workflow of Manufacturing Order.
+Support:
+- R/M assigned, can start Manufacturing Order
+- Modify the QTY of R/M in the picking, then synchronize the QTY when Start Order.
+- Create a picking for produce product, link to the exist stock move.
+- When you produce the order, the picking move of produce product to be Available ,not Done.
+- When you finish the picking, then close the Manufacturing order automatically.   
 
 Bug Tracker
 ===========
@@ -32,7 +30,6 @@ Contributors
 
 * Eric Caudal <eric.caudal@elico-corp.com>
 * Andy Lu <andy.lu@elico-corp.com>
-* Augustin Cisterne-Kaas <augustin.cisterne-kaas@elico-corp.com>
 
 Maintainer
 ----------
