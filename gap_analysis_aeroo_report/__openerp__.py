@@ -1,44 +1,27 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2013 Elico Corp. All Rights Reserved.
-#    Author: Yannick Gouin <yannick.gouin@elico-corp.com>
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2014 Elico corp(www.elico-corp.com)
+# Licence AGPL-3.0 or later(http://www.gnu.org/licenses/agpl.html)
+
 
 {
     'name': 'Gap Analysis Aeroo Report',
-    'version': '1.0',
+    'version': '7.0.1.0.0',
     'category': 'Tools',
     'complexity': "easy",
     'description': """
-Generate a gap-analysis with cost estimation
---------------------------------------------
+        Generate a gap-analysis with cost estimation
+        --------------------------------------------
 
-To generate .xls instead of .ods
----------------------------------
-download and install report_aeroo_ooo
+        To generate .xls instead of .ods
+        ---------------------------------
+        download and install report_aeroo_ooo
 
-Current addon Limit
--------------------
-The columns are not managed dynamically, so the you can make a report with <= 6 workload type.
-You can have more workload type used in your gap analysis, but they won't be shown. 
- 
-""",
+        Current addon Limit
+        -------------------
+        The columns are not managed dynamically, so the you can make a report with <= 6 workload type.
+        You can have more workload type used in your gap analysis, but they won't be shown. 
+             
+    """,
     'author': 'Elico Corp',
     'website': 'http://www.elico-corp.com',
     'images': ['images/report.jpg'],
@@ -53,7 +36,7 @@ You can have more workload type used in your gap analysis, but they won't be sho
     'auto_install': False,
     'application': False,
     'active': True,
-    'certificate': '',
+    
 }
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
