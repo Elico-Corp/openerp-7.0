@@ -6,7 +6,21 @@
 Sales Bottom Price 
 =============================
 
-Sales Bottom Price Management
+* The module should allow the sales user to complete the sales process
+* This module allow sale order line to sync the final
+* This module allow user to compare the price wiht product bottom price 
+
+Definitions:
+
+* Final Price: the price after the discount
+* Original Price: the price taken from the price list
+* Minimum Price: the bottom price for product
+
+Assumptions:
+
+* Product do not have any pre setup tax.
+* bottom price is less than sale price
+* All price is tax included. (Check AR/AP specification)
 
 Bug Tracker
 ===========
