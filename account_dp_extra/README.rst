@@ -6,12 +6,14 @@
 Separate Decimal Precision for Invoice Line
 ===========================================
 
-This module corrects the following limitations in OpenERP standard modules:
-- In standard accounting module, all objects in the invoice line (unit price, subtotal, etc) are setup following
+This module corrects the following limitations in OpenERP standard modules: in standard
+accounting module, all objects in the invoice line (unit price, subtotal, etc) are setup following
 decimal precision given by 'Account' (eg: 2).
 
-This module introduces a new decimal precision 'Account Line' so that you can have prices in Invoice Line with different accuracy (eg:4)
-This means that you can have 2 digits for the invoice total calculation (following your accounting standards) and 4 digits for the invoice details and unit price. 
+This module introduces a new decimal precision 'Account Line' so that you can have prices
+in Invoice Line with different accuracy (eg:4)
+This means that you can have 2 digits for the invoice total calculation (following your accounting 
+standards) and 4 digits for the invoice details and unit price. 
 
 
 Bug Tracker
