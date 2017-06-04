@@ -5,7 +5,7 @@
 =========================
 Stock With Cost
 =========================
-* Add Cost (POL Price )in Stock Move, Stock picking
+* Add Cost (PO Line Price) in Stock Move, Stock picking
 
 Bug Tracker
 ===========
