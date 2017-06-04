@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
-        <record model="ir.ui.view" id="sarment_view_pos_form_inherit">
+        <record model="ir.ui.view" id="company_view_pos_form_inherit">
             <field name="name">company.view.pos.form.inherit</field>
             <field name="model">pos.order</field>
             <field name="inherit_id" ref="point_of_sale.view_pos_pos_form"/>
